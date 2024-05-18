@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlay Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Overlay Example</h1>
+    <input type="file" id="upload" accept="image/*">
+    <select id="frame">
+        <option value="none">No Frame</option>
+        <option value="frame1.png">Frame 1</option>
+        <option value="frame2.png">Frame 2</option>
+        <!-- 添加更多预设的边框选项 -->
+    </select>
+    <canvas id="canvas"></canvas>
+    <button id="download">Download Processed Image</button>
+    <script src="scripts.js"></script>
+</body>
+</html>

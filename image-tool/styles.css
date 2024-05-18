@@ -1,0 +1,46 @@
+/* 基本样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 头部样式 */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* 主内容样式 */
+main {
+    margin-top: 20px;
+}
+
+/* 按钮样式 */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* 按钮悬停样式 */
+button:hover {
+    background-color: #45a049;
+}
+
+/* 页脚样式 */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
